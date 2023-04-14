@@ -8,8 +8,10 @@ environment:
 #   path: ^1.8.0
 
 dependencies:
+  async: ^2.11.0
   mason: any
   process_run: ^0.12.5+3
+  recase: ^4.1.0
 
 dev_dependencies:
   lints: ^2.0.0

@@ -4,9 +4,22 @@ mason 生成一个页面
 
 ## 用法
 
+安装:
+
 ```shell
-mason make create_page --name 'page_name'
+mason add create_page -g --git-url 'git@codeup.aliyun.com:6240585956f85235f7dd77d1/app/mason_brick.git' --git-path 'create_page'
 ```
+
+然后运行：
+
+```shell
+mason make create_page --name "test me"
+```
+
+就会生成：
+* test_me/provider/provider.dart
+* test_me/widget/widget.dart
+* test_me/test_me.dart
 
 就会生成一个页面，其中包括了框架
 
