@@ -12,13 +12,7 @@
 mason add init_app -g --git-url 'git@codeup.aliyun.com:6240585956f85235f7dd77d1/app/mason_brick.git' --git-path 'init_app'
 ```
 
-在创建Flutter项目后：
-
-```shell
-flutter create test_me
-```
-
-在Flutter项目文件夹`test_me`运行：
+在创建Flutter项目`flutter create test_me`之后，Flutter项目文件夹`test_me`运行：
 
 ```shell
 mason make init_app
