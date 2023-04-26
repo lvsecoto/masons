@@ -15,7 +15,7 @@ Future<void> run(HookContext context) async {
     'flutter_riverpod',
     'hooks_riverpod',
     'riverpod_annotation',
-    'riverpod_annotation',
+    'flutter_hooks',
     'freezed_annotation',
     'rxdart',
     'auto_route',
