@@ -9,7 +9,6 @@ Future<void> run(HookContext context) async {
   await p.run("alias flutter='flutter --no-version-check'");
 
   pubAddSh.writeAsStringSync('flutter pub add ${[
-    'common:{"git":{"url":"git@codeup.aliyun.com:6240585956f85235f7dd77d1/app/flutter_common.git"}}',
     'flutter_localizations:{"sdk":"flutter"}',
     'intl',
     'flutter_riverpod',
