@@ -7,7 +7,7 @@ mason 生成一个页面
 安装:
 
 ```shell
-mason add create_page -g --git-url 'git@codeup.aliyun.com:6240585956f85235f7dd77d1/app/mason_brick.git' --git-path 'create_page'
+mason add create_page -g --git-url 'git@github.com:lvsecoto/masons.git' --git-path 'create_page'
 ```
 
 然后运行：
