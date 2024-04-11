@@ -7,8 +7,9 @@ class ContentWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('首页'),
+        title: const Text('Home'),
       ),
+      body: Container(),
     );
   }
 }

@@ -1,14 +1,19 @@
-import 'package:auto_route/auto_route.dart';
+import 'package:go_router/go_router.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import 'router.gr.dart';
+import 'route/route.dart';
 
-@AutoRouterConfig(replaceInRouteName: 'PageWidget,')
-class AppRouter extends $AppRouter {
-  @override
-  List<AutoRoute> get routes => [
-    AutoRoute(
-      path: '/',
-      page: Root.page,
-    ),
-  ];
+part 'router.g.dart';
+
+@riverpod
+GoRouter router(RouterRef ref) {
+  final router = GoRouter(
+    initialLocation: const HomeRoute().location,
+    debugLogDiagnostics: true,
+    routes: [
+      ...$appRoutes,
+    ],
+    navigatorKey: rootNavigatorKey,
+  );
+  return router;
 }
