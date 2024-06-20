@@ -5,8 +5,8 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'model.dart';
 part 'provider.dart';
 
-part '{{name.camelCase()}}.g.dart';
-part '{{name.camelCase()}}.freezed.dart';
+part '{{name.snakeCase()}}.g.dart';
+part '{{name.snakeCase()}}.freezed.dart';
 
 @riverpod
 {{name.pascalCase()}}Manager {{name.camelCase()}}Manager({{name.pascalCase()}}ManagerRef ref) {

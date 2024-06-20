@@ -1,4 +1,4 @@
-part of '{{name.camelCase()}}.dart';
+part of '{{name.snakeCase()}}.dart';
 
 @freezed
 class {{name.pascalCase()}} with _${{name.pascalCase()}} {
